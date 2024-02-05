@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 10vh;
+    background: url("pexels-kristaps-ungurs-19845844.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 8px 16px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    color: aliceblue;
+    max-width: 1200px;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: brown;
+    color: aliceblue;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: black;
+    color: brown;
+}
